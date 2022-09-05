@@ -1,0 +1,16 @@
+GET http://localhost:8000
+
+###
+GET http://localhost:8000/all
+
+
+###
+GET http://localhost:8000/api/askdhasodjhasd
+
+###
+POST  http://localhost:8000/api
+Content-Type: application/json
+
+{
+    "data" : "asdasd"
+}
