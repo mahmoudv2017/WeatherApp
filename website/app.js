@@ -3,7 +3,7 @@ const api_key = "02daa4af18db45d22d12b68e7260b673&units=imperial"
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth()+'.'+ d.getDate()+'.'+ d.getFullYear();
+let newDate = d.getMonth() + 1 + '.' + d.getDate() + '.' + d.getFullYear();
 const zip_code = document.getElementById('zip').textContent
 
 
