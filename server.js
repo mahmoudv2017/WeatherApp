@@ -30,10 +30,7 @@ app.listen(8000 , () => {
     console.log(`server started at 8000`)
 })
 
-app.post('/api' , (req,res) => {
-    Object.assign(projectData , req.body)
-    res.status(200).send('done')
-})
+
 
 app.get("/all" , (_,res) => {
 
@@ -48,4 +45,9 @@ app.get("/all" , (_,res) => {
     })
    
     
+})
+
+app.post('/api' , (req,res) => {
+    Object.assign(projectData , req.body)
+    res.status(200).send('done')
 })
